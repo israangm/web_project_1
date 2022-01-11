@@ -180,6 +180,7 @@
   margin: 100px auto 70px auto;
   position: relative;
   z-index: 2;
+  bottom: 50px;
 }
 
 .feynman__subtitle {
@@ -199,7 +200,6 @@
   height: 637px;
   position: relative;
   bottom: 380px;
-  left: -50px;
   z-index: 1;
 }
 
@@ -220,9 +220,9 @@
 background-color: #1F1F1F;
 color: #FFF;
 margin-top: 0;
-z-index: 0;
 margin-bottom: -16px;
 padding-bottom: 90px;
+overflow: hidden;
 }
 
 .kaufman__section-title {
@@ -251,7 +251,6 @@ padding-bottom: 90px;
   position: absolute;
   width: 660px;
   height: 636px;
-  overflow: hidden;
   top: 3140px;
   right: -150px;
   z-index: auto;
