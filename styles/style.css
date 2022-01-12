@@ -129,8 +129,8 @@
   font-size: 60px;
   font-weight: bold;
   margin-bottom: 20px;
-  margin-left: 450px;
-  margin-right: 450px;
+  margin-left: 550px;
+  margin-right: 550px;
 }
 
 .digits__section-subtitle {
@@ -138,8 +138,8 @@
   font-size: 24px;
   font-weight: normal;
   width: 60%;
-  margin-left: 550px;
-  margin-right: 550px;
+  margin-left: 650px;
+  margin-right: 650px;
 }
 
 .table-cell {
@@ -219,10 +219,8 @@
 .kaufman {
 background-color: #1F1F1F;
 color: #FFF;
-margin-top: 0;
-margin-bottom: -16px;
-padding-bottom: 90px;
 overflow: hidden;
+max-height: 800px;
 }
 
 .kaufman__section-title {
@@ -242,18 +240,18 @@ overflow: hidden;
   font-size: 24px;
   font-weight: normal;
   width: 60%;
-  margin-left: 650px;
-  margin-right: 650px;
+  margin-left: 700px;
+  margin-right: 700px;
   margin-top: 20px;
 }
 
 .kaufman__triangle {
-  position: absolute;
+  position: relative;
   width: 660px;
   height: 636px;
-  top: 3140px;
-  right: -150px;
+  right: -1050px;
   z-index: auto;
+  bottom: 668px;
 }
 
 .table-cell__dark-theme {
@@ -264,7 +262,6 @@ overflow: hidden;
   background-color: #1F1F1F;
   color: #FFF;
   min-height: 350px;
-  padding-top: 60px;
   padding-bottom: 40px;
 }
 
