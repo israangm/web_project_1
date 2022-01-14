@@ -31,7 +31,7 @@
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  width: 730px;
+  max-width: 730px;
   margin-top: 0;
   align-items: center;
   position: relative;
@@ -78,7 +78,7 @@
 .description {
   margin-top: 100px;
   margin-bottom: 100px;
-  width: 80%;
+  max-width: 80%;
   display: flex;
   justify-content: space-between;
   margin-left: auto;
@@ -94,7 +94,7 @@
 }
 
 .two-columns__main-text {
-  width: 80%;
+  max-width: 80%;
   min-width: 784px;
 }
 
@@ -116,7 +116,7 @@ p:last-of-type {
 }
 
 .digits {
-  margin: 100px auto 100px auto;
+  margin: 100px auto;
 }
 
 .table {
@@ -124,7 +124,7 @@ p:last-of-type {
   justify-content: space-between;
   flex-wrap: wrap;
   width: 1100px;
-  margin: 60px auto 0 auto;
+  margin: 60px auto 0;
   padding: 0;
 }
 
@@ -133,7 +133,7 @@ p:last-of-type {
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
-  margin: auto auto 20px auto;
+  margin: auto auto 20px;
   text-align: center;
 }
 
@@ -148,7 +148,8 @@ p:last-of-type {
 
 .table-cell {
   list-style: none;
-  width: 250px;
+  max-width: 250px;
+  padding-bottom: 60px;
 }
 
 .table-heading {
@@ -163,16 +164,15 @@ p:last-of-type {
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
   position: relative;
   z-index: 4;
 }
 
 .feynman {
-  max-height: 790px;
+  height: 790px;
   background-color: #F2F2F2;
   position: relative;
-  padding-top: 100px;
 }
 
 .feynman__title {
@@ -181,21 +181,20 @@ p:last-of-type {
   font-size: 120px;
   font-weight: bold;
   text-align: center;
-  margin: 100px auto 70px auto;
-  padding-left: 75px;
+  margin: 100px auto 70px;
   position: relative;
   z-index: 2;
-  bottom: 50px;
+  top: 100px;
 }
 
 .feynman__subtitle {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  margin: 0 auto 0 auto;
-  padding-left: 75px;
+  margin: 70px auto 0;
   text-align: center;
   position: relative;
+  top: 100px;
   z-index: 3;
 }
 
@@ -203,8 +202,9 @@ p:last-of-type {
   background-image: url("../images/feynman.png");
   width: 867px;
   height: 637px;
-  position: relative;
-  bottom: 344px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
   z-index: 1;
 }
 
@@ -216,7 +216,6 @@ p:last-of-type {
   position: absolute;
   height: 50%;
   right: 0;
-  bottom: -70px;
   padding-right: 48px;
   text-decoration: none;
 }
@@ -226,6 +225,8 @@ background-color: #1F1F1F;
 color: #FFF;
 overflow: hidden;
 max-height: 800px;
+position: relative;
+padding-bottom: 90px;
 }
 
 .kaufman__section_title {
@@ -233,8 +234,7 @@ max-height: 800px;
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
-  margin: 0 300px 20px 300px;
-  padding-top: 90px;
+  margin: 90px auto 20px;
   text-align: center;
   position: relative;
   z-index: 5;
@@ -246,16 +246,18 @@ max-height: 800px;
   font-weight: normal;
   max-width: 60%;
   text-align: center;
-  margin: 20px auto 0 auto;
+  margin: 20px auto 0;
+  position: relative;
+  z-index: 5;
 }
 
 .kaufman__triangle {
-  position: relative;
+  position: absolute;
   width: 660px;
   height: 636px;
-  right: -1050px;
+  top: 0;
+  right: -124px;
   z-index: auto;
-  bottom: 610px;
 }
 
 .table-cell__dark-theme {
@@ -266,8 +268,7 @@ max-height: 800px;
   background-color: #1F1F1F;
   color: #FFF;
   min-height: 350px;
-  padding-bottom: 40px;
-  padding-top: 60px;
+  padding: 60px 0 40px;
   box-sizing: border-box;
 }
 
@@ -276,14 +277,14 @@ max-height: 800px;
   flex-basis: 711px;
   justify-content: space-between;
   margin: auto;
-  width: 90%;
+  max-width: 90%;
 }
 
 .footer__column_heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-  margin: 0 0 20px 0;
+  margin: 0 0 20px;
 }
 
 .footer__list {
@@ -317,9 +318,8 @@ max-height: 800px;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  padding-left: 60px;
-  padding-top: 100px;
-  margin: 18px 0 18px 0;
+  padding: 100px 0 0 60px;
+  margin: 18px 0;
 }
 
 .footer__column__content_copyright {
