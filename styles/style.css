@@ -345,7 +345,7 @@ padding-bottom: 90px;
   margin: 18px 0;
 }
 
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
@@ -353,6 +353,6 @@ padding-bottom: 90px;
   margin: 0;
 }
 
-.footer__column_content-about {
+.footer__column_content_about {
   margin: 0;
 }
