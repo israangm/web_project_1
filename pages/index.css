@@ -1,3 +1,6 @@
+  /* VENDOR */
+  @import url(../vendor/normalize.css);
+  
   /* PAGE */
   @import url(../blocks/page/page.css);
  
@@ -11,8 +14,8 @@
 
   /* LOGO */
   @import url(../blocks/logo/logo.css);
-  @import url(../blocks/logo/_place_footer/logo_place_footer.css);
-  @import url(../blocks/logo/_place_header/logo_place_header.css);
+  @import url(../blocks/logo/_place/logo_place_footer.css);
+  @import url(../blocks/logo/_place/logo_place_header.css);
 
   /* DESCRIPTION */
   @import url(../blocks/description/description.css);
@@ -39,19 +42,19 @@
 
   /* SECTION-TITLE */
   @import url(../blocks/section-title/section-title.css);
-  @import url(../blocks/section-title/_theme_dark/section-title_theme_dark.css);
+  @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 
   /* SECTION-SUBTITLE */
   @import url(../blocks/section-subtitle/section-subtitle.css);
-  @import url(../blocks/section-subtitle/_theme_dark/section-subtitle_theme_dark.css);
+  @import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
   /* TABLE */
   @import url(../blocks/table/table.css);
   @import url(../blocks/table/__cell/table__cell.css);
-  @import url(../blocks/table/__cell/_theme_dark/table__cell_theme_dark.css);
+  @import url(../blocks/table/__cell/_theme/table__cell_theme_dark.css);
   @import url(../blocks/table/__heading/table__heading.css);
   @import url(../blocks/table/__text/table__text.css);
-  @import url(../blocks/table/_theme_dark/table_theme_dark.css);
+  @import url(../blocks/table/_theme/table_theme_dark.css);
 
   /* VIDEO */
   @import url(../blocks/video/video.css);
@@ -94,11 +97,11 @@
   @import url(../blocks/footer/__author/footer__author.css);
   @import url(../blocks/footer/__column-heading/footer__column-heading.css);
   @import url(../blocks/footer/__column-link/footer__column-link.css);
-  @import url(../blocks/footer/__column_content_about/footer__column_content_about.css);
-  @import url(../blocks/footer/__column_content_copyright/footer__column_content_copyright.css);
+  @import url(../blocks/footer/__column/_content/footer__column_content_about.css);
+  @import url(../blocks/footer/__column/_content/footer__column_content_copyright.css);
   @import url(../blocks/footer/__columns/footer__columns.css);
   @import url(../blocks/footer/__list/footer__list.css);
   @import url(../blocks/footer/__social-icons/footer__social-icons.css);
 
-  /* VENDOR */
-  @import url(../vendor/normalize.css);
+  /* ROTATION */
+  @import url(../blocks/rotation/rotation.css);
